@@ -27,7 +27,11 @@ header nav {
     font-size: 0;
     margin-top: 30px;
 }
-header nav a {
+header nav li a {
+	text-decoration: none;
+	color: #6d5e86;
+}
+header nav li {
 	display: inline-block;
     padding: 20px 20px 22px 20px;
     font-size: 14px;
@@ -40,6 +44,12 @@ header nav a:hover, header nav a:active, header nav a:focus {
 	color: #F4C520;
     text-decoration: none;
     transition: color 0.5s ease-in-out;
+}
+.navbar-toggle {
+	border-color: #ddd;
+}
+.icon-bar {
+	background-color: #ddd;
 }
 section {
 	display: block;
@@ -246,8 +256,27 @@ footer i {
 
 /* Media Queries */
 @media (max-width: 767px) {
+	.landing .me {
+		top: 45%;
+	}
 	.about-me {
 		padding-left: 20px;
 		padding-top: 0px;
+	}
+	header nav {
+		float: right;
+		width: 100%;
+		margin-top: 5px;
+	}
+	header ul {
+		margin: 0;
+    	padding: 0;
+	}
+	header ul li {
+		display: block;
+		border-bottom: solid 1px;
+	}
+	#Navbar {
+		background-color: #fff;
 	}
 }
