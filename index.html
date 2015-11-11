@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Armin Khoshbin</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <link rel="stylesheet" href="css/style.css">
+   <script src="js/jquery-1.11.3.min.js"></script>
+   <link href='https://fonts.googleapis.com/css?family=Cuprum' rel='stylesheet' type='text/css'>
+	</head>
+
+  <body>
+  	<div class="container">
+	  		<header>
+					<nav>
+						<a href="/" class="active">Home</a>
+						<a id="bounce">Profile</a>
+						<a href="resume.pdf" target="blank">Resume</a>
+						<a href="mailto:armin.khoshbin@gmail.com">Contact Me</a>
+						<a href="http://twitter.com/ArminKDev" target="blank"><span class="fa fa-twitter"></span></a>
+					</nav>
+				</header>
+	  	<section class="landing">
+	  		<div class="me text-center">
+	  			<h1>Armin Khoshbin</h1>
+	  			<h2>Web Developer</h2>
+	  			<p>Caffeine fueled young enthusiastic Web Dev based in Brisbane, Australia</p>
+	  		</div>
+	  		<a id ="bounce" class="bounce"><i class="fa fa-angle-double-down fa-4x"></i></a>
+	  	</section>
+	  	<h1 class="about-title" id="aboutme">P R O F I L E</h1>
+	  	<hr/>
+	  	<section class="about">
+	  		<div class="row">
+	  			<div class="col-md-6 about-me text-left">
+	  				<p>Hi! I'm Armin, a young enthusiastic web developer based in Brisbane, Australia; loving the World Wide Web and trying to build up my skills. I am a recently graduated Information Technology from <a href="https://qut.edu.au" target="_blank">QUT</a> and working as a Web Developer for <a href="http://bds.com.au" target="_blank">BDS.com.au Pty Ltd</a>. I believe simplicity is the key to the web design and development. I am always looking forward to meet like-minded people, so don't hesitate to <a href="mailto:armin.khoshbin@gmail.com">shoot me a mail</a> or connect with me on social networks.</p>
+	  			</div>
+	  			<div class="col-md-6 avatar text-center">
+	  				<img src="armin.jpg" alt="Armin Khoshbin">
+	  			</div>
+	  		</div>
+	  	</section>
+	  	<section class="connect">
+		  	<h1 class="about-title">Let's Connect!</h1>
+		  	<hr/>
+		  	<div class="social text-center">
+		  		<a href="https://au.linkedin.com/in/arminkhoshbin" target="_blank"><span class="fa fa-linkedin fa-2x"></span></a><a href="https://github.com/arminkhoshbin" target="_blank"><span class="fa fa-github fa-2x"></span></a><a href="https://twitter.com/ArminKDev" target="_blank"><span class="fa fa-twitter fa-2x"></span></a>
+		  		<a href="mailto:armin.khoshbin@gmail.com" class="btn btn-default hvr-sweep-to-right">SHOOT ME A MAIL</a>
+		  	</div>
+		  </section>
+		  <footer class="text-center">
+		  	<p>Made with <i class="fa fa-heart"></i> By Armin Khoshbin</p>
+		  </footer>
+	  	</div>
+	  </div>
+	  <script>
+    $(function() {
+      $('#bounce').click(function() {
+        $('html, body').animate({
+          scrollTop: $("#aboutme").offset().top },
+          '1000'
+        );
+        // Prevent default behavior of link
+        return false;
+      });
+    });
+  </script>
+  </body>
+
+</html>
