@@ -104,6 +104,9 @@ section {
 .about {
 	height: auto;
 }
+.about .row {
+	margin: 0;
+}
 .about-title {
 	text-align: center;
 	font-size: 2.5em;
@@ -239,4 +242,12 @@ footer {
 }
 footer i {
 	color: #F4C520;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+	.about-me {
+		padding-left: 20px;
+		padding-top: 0px;
+	}
 }
