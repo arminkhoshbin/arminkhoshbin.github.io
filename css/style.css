@@ -48,7 +48,7 @@ section {
 .landing {
 	width: 100%;
 	height: 95%;
-	background: url(landing-bg.png) center center no-repeat #201433;
+	background: url(../landing-bg.png) center center no-repeat #201433;
 	//padding-top: 80px;
 	background-size: cover;
 	position: relative;
